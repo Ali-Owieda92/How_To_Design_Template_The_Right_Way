@@ -1,0 +1,118 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DDD;
+    direction: rtl;
+}
+.container {
+    width: 940px;
+    margin: 20px auto;
+    background-color: #FFF;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* Start Header  */
+header {
+    min-height: 100px;
+    overflow: hidden;
+}
+header .logo {
+    width: 20%;
+}
+header .logo img {
+    width: 100px;
+    margin: 20px 20px 20px 0;
+    float: right;
+}
+header nav {
+    width: 80%;
+    float: left;
+}
+header nav ul {
+    margin: 50px 50px 0 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+/* End Header  */
+/* Start Content  */
+.content {
+    min-height: 500px;
+    background-color: #BBB;
+    overflow: hidden;
+}
+.content .sidebar {
+    float: right;
+    width: 25%;
+    margin-left: 1%;
+    height: 500px;
+}
+.content .sidebar .widget {
+    width: 90%;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    margin: 10px auto;
+}
+.content .sidebar .widget .title {
+    background-color: #222;
+    color: #FFF;
+    padding: 5px 0;
+    text-align: center;
+}
+.content .sidebar .widget .data ul {
+    line-height: 200%;
+    text-align: right;
+}
+.content .sidebar .widget .data ul li {
+    padding-right: 10px;
+}
+.content .sidebar .widget .data {
+    text-align: center;
+}
+.content .sidebar .widget .data img {
+    max-width: 100%;
+    margin: 10px auto;
+}
+.content .products {
+    float: left;
+    width: 74%;
+    padding: 0 0 20px 0;
+}
+.content .products .product {
+    width: 22%;
+    margin-left: 3%;
+    margin-top: 20px;
+    float: right;
+    background-color: #FFF;
+    text-align: center;
+}
+.content .products .product img {
+    max-width: 100%;
+}
+/* End Content  */
+/* Start Footer  */
+footer {
+    background-color: #CCC;
+}
+footer .info {
+    overflow: hidden;
+    padding: 10px;
+}
+footer .info .card {
+    width: 33.3333%;
+    float: right;
+}
+footer .copyright {
+    background-color: #333;
+    color: #FFF;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+/* End Footer  */
